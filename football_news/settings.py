@@ -36,9 +36,8 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "maira-azma-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://maira-azma-footballnews.pbp.cs.ui.ac.id/"
+    "https://maira-azma-footballnews.pbp.cs.ui.ac.id"
 ]
-
 
 # Application definition
 
