@@ -23,7 +23,6 @@ def login(request):
     if user is not None:
         if user.is_active:
             auth_login(request, user)
-            # ✅ Tambahkan field "username" agar Flutter bisa kenali user
             return JsonResponse({
                 "status": True,
                 "message": "Successfully Logged In!",
